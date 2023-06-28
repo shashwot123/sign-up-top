@@ -1,0 +1,28 @@
+* {
+  border: 2px solid red;
+}
+.flex-container {
+	display: flex;
+}
+.flex-container div {
+	flex: shrink;
+}
+img {
+	width: 500px;
+	height: 800px;
+}
+.flex-right {
+	margin: 1rem;
+	padding: 1rem;
+}
+.flex-right-top {
+	margin: 1rem;
+	font: sans-serif;
+	font-size: 2rem;
+}
+.flex-right-bottom {
+	margin: 1rem;
+}
+.form-input {
+	display: inline-grid;
+}
