@@ -7,19 +7,54 @@
 .container {
 	display: flex;
 }
+label {
+	margin: 0.2rem;
+	color: forestgreen;
+}
+input {
+	border-radius: 0.4rem;
+	padding: 0.2rem;
+	margin: 0.2rem;
+}
 img {
 	width: 40vw;
 }
-.right {
+a {
+	text-decoration: none;
+}
+form {
+	margin: 2rem;
 	padding: 2rem;
-	margin: 1rem;
+	margin-bottom: 1rem;
+}
+.right {
+	background-color: beige;
 }
 .right-top {
 	font-size: 1.6rem;
-	margin: 1rem;
+	margin: 1.2rem;
+	padding: 1.2rem;
+	background-color: beige;
 }
-.right-bottom {
+.right-middle {
+	background-color: lightgray;
 	font-size: 1.2rem;
-	margin: 1rem;
-	padding-top: 5rem;
+}
+.submit {
+	background-color: palegreen;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	opacity: 0.8;
+	margin: 0.6rem;
+}
+.submit:hover {
+	background-color: darkgreen;
+}
+.form-input {
+	display: inline-block;
+	width: 18vw;
+	margin: 0.5rem;
+}
+.login {
+	margin: 0.7rem;
 }
