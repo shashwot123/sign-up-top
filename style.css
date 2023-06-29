@@ -16,8 +16,10 @@ input {
 	padding: 0.2rem;
 	margin: 0.2rem;
 }
-img {
-	width: 40vw;
+.left {
+	width: 90vw;
+	background-image: url(./background-image.jpg);
+	background-size: 100% 100%;
 }
 a {
 	text-decoration: none;
